@@ -1,11 +1,11 @@
-# My first Bible Creator Python program
 
-video = {
-    "topic": "David and Goliath",
-    "reference": "1 Samuel 17",
-    "language": "English"
-}
+# Bible Creator AI Studio
 
-print(video["topic"])
-print(video["reference"])
-print(video["language"])
+topic = "David and Goliath"
+language = "Telugu"
+duration = 3
+
+print("=== Bible Video Planner ===")
+print("Story:", topic)
+print("Language:", language)
+print("Duration:", duration, "minutes")
